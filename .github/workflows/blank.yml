@@ -33,6 +33,19 @@ jobs:
       - name: Print machine specs
         run: lscpu
 
+      # Runs a single command using the runners shell
+      - name: Print machine specs
+        run: whoami
+
+
+      # Runs a single command using the runners shell
+      - name: Print machine specs
+        run: df -H
+
+      # Runs a single command using the runners shell
+      - name: Print machine specs
+        run: sinfo
+        
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
