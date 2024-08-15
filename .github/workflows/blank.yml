@@ -35,8 +35,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Print machine specs
-        run: whoami
-
+        run: whoami      
+      
+      # Runs a single command using the runners shell
+      - name: Print machine specs
+        run: sbatchit test.sh
 
       # Runs a single command using the runners shell
       - name: Print machine specs
